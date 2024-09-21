@@ -11,6 +11,10 @@
     --border-color:#EEEEEE;
 }
 
+  .webstudio-link{
+   font-family: "Raleway";
+  }
+
  .index-link{
     font-family: 'Roboto';
  }
@@ -23,7 +27,40 @@
     font-family: 'Roboto';
  }
 
-  .subject{
+  .subject-title{
     font-family: "Roboto";
   }
+  .subject-text{
+   font-family: "Roboto";
+  }
+
+ .main-title{
+   font-family: "Roboto";
+ }
+
+ .main-text{
+   font-family: "Roboto";
+ }
+
+
+.team {
+   font-family: "Roboto";
+}
+
+.indek{
+   font-family: "Raleway";
+}
+
+ .link-lesia{
+   font-family: "Roboto";
+ }
+
+ .link-adres{
+   font-family: "Roboto";
+ }
+
+ .link-number{
+   font-family: "Roboto";
+ }
+
 
