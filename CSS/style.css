@@ -13,38 +13,120 @@
 
   .webstudio-link{
    font-family: "Raleway";
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 1.38;
   }
 
  .index-link{
     font-family: 'Roboto';
- }
+    color: #212121;
+   font-size: 14px;
+  font-weight: 500;
+   line-height: 1.14;
+  }
+.adres{
+  color: #2196F3;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+}
+
+.number{
+  color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
 
  .beginning-title{
     font-family: 'Roboto';
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    color: #FFF;
  }
 
  .beginning-button{
+  text-align: center;
+  color: #FFF;
+  background-color: #2196F3;
     font-family: 'Roboto';
+     font-size: 16px;
+    font-weight: 700;
+    line-height: 1.85;
  }
 
   .subject-title{
     font-family: "Roboto";
+    color: #212121;
+    font-size: 14px;
+   font-weight: 700;
+   line-height: 1.14;
   }
   .subject-text{
    font-family: "Roboto";
+   color: #757575;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.71;
   }
 
  .main-title{
    font-family: "Roboto";
+   color: #212121;
+   text-align: center;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.16;
+ }
+ .main-item{
+  width: 370px;
+height: 294px;
+flex-shrink: 0;
  }
 
  .main-text{
    font-family: "Roboto";
  }
 
+ .team-title{
+  color: #212121;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+ }
 
-.team {
-   font-family: "Roboto";
+ .team-img{
+  width: 270px;
+height: 260px;
+flex-shrink: 0;
+}
+
+.team-titles{
+  color: #212121;
+ text-align: center;
+ font-family: "Roboto";
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 1.18;
+ }
+ 
+ .team-text{
+color: #757575;
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
 }
 
 .link{
@@ -53,18 +135,33 @@
 
  .link-lesia{
    font-family: "Roboto";
+   color: #FFF;
+   font-size: 14px;
+   font-weight: 400;
  }
 
  .link-adres{
    font-family: "Roboto";
- }
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.71;
+   color: rgba(255, 255, 255, 0.60)
+   }
 
  .link-number{
    font-family: "Roboto";
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.71;
+   color: rgba(255, 255, 255, 0.60)
  }
 
  .portofolio-link{
   font-family: "Raleway";
+  font-family: "Raleway";
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 1.38;
  }
  
  .portofolio-list{
@@ -73,22 +170,44 @@
 
  .offers-item{
   font-family: "Roboto";
+  color: #212121;
+   text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
  }
 
- .frame-item{
+ .portofolio-item{
   font-family: "Roboto";
+  color: #212121;
+   font-size: 14px;
+  font-weight: 500;
+   line-height: 1.14;
+ }
+ 
+ .frame-title{
+  color: #212121;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2; 
  }
 
- .portofolio-adres{
+ .frame-text{
+  color: #757575;
   font-family: "Roboto";
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 1.87;
+}
+
+ .frame-img{
+  width: 370px;
+height: 294px;
+flex-shrink: 0;
  }
 
- .email{
-  font-family: "Roboto";
- }
- .link{
-  font-family: "Raleway";
- }
+
  
 
 
