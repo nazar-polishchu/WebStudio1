@@ -11,6 +11,8 @@
     --border-color:#EEEEEE;
 }
 
+.conteiner
+
   .webstudio-link{
    font-family: "Raleway";
    font-size: 26px;
@@ -220,13 +222,17 @@ line-height: 1.18;
   font-family: "Roboto";
  }
 
- .offers-item{
+ .offers-button{
   font-family: "Roboto";
   color: var(--main-color);
    text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
+ }
+ .offers-button:hover{
+  background-color: var(--akcen-tcolor);
+  color: var(--tytle-color);
  }
 
  .portofolio-item{
