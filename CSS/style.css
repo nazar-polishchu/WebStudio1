@@ -11,14 +11,13 @@
     --border-color:#EEEEEE;
 }
 
-.conteiner
 
-  .webstudio-link{
-   font-family: "Raleway";
+   .webstudio-link{
+    font-family: "Raleway";
    font-size: 26px;
    font-weight: 700;
    line-height: 1.38;
-   color: var(--akcen-tcolor);
+   color: var(--akcen-tcolor)
   }
   .header-span{
     font-family: "Raleway";
@@ -283,6 +282,22 @@ flex-shrink: 0;
  body{
   font-family: "Roboto";
  }
+
+ .footer-Web{
+  color: var(--akcen-tcolor);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+ }
+ 
+ .footer-Studio{
+  color: var(--tytle-color);
+font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+}
 
  
 
