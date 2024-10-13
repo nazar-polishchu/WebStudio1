@@ -11,12 +11,29 @@
     --border-color:#EEEEEE;
 }
 
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid blue;
+  
+}
+
+.header{
+  padding-top: 24px;
+   padding-bottom: 32px;
+}
+
 
    .webstudio-link{
     font-family: "Raleway";
    font-size: 26px;
    font-weight: 700;
    line-height: 1.38;
+   padding-top: 24px;
+   padding-bottom: 25px;
    color: var(--akcen-tcolor)
   }
   .header-span{
@@ -24,6 +41,8 @@
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
+    padding-top: 24;
+   padding-bottom: 25;
     color: var(--logo-color); 
   }
 
@@ -64,8 +83,8 @@ letter-spacing: 0.28px;
 }
 
 .beginning{
-  background-color: var(--footer-background);
- 
+  padding-top: 25px;
+  padding-bottom: 94px;
 }
 
 
@@ -75,8 +94,11 @@ letter-spacing: 0.28px;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
+    padding-top: 200px;
+    padding-bottom: 280px;
     color: var(--tytle-color);
- }
+    background-color: var(--footer-background)
+    }
 
  .beginning-button{
   text-align: center;
@@ -86,7 +108,12 @@ letter-spacing: 0.28px;
      font-size: 16px;
     font-weight: 700;
     line-height: 1.85;
- }
+    }
+
+  .subject{
+    padding-top: 94px;
+    padding-bottom: 118px;
+  }
 
   .subject-title{
     font-family: "Roboto";
@@ -94,13 +121,18 @@ letter-spacing: 0.28px;
     font-size: 14px;
    font-weight: 700;
    line-height: 1.14;
-  }
+   }
   .subject-text{
    font-family: "Roboto";
    color: var(--et-textcolor);
    font-size: 14px;
    font-weight: 400;
    line-height: 1.71;
+  }
+  
+  .main{
+    padding-top: 118px;
+    padding-bottom: 94px;
   }
 
  .main-title{
@@ -123,6 +155,8 @@ flex-shrink: 0;
 
  .team{
   background-color: var(--team-background);
+  padding-bottom: 94px;
+  padding-top: 94px;
  }
 
  .team-title{
@@ -179,6 +213,7 @@ line-height: 1.18;
    color: var(--tytle-color);
    font-size: 14px;
    font-weight: 400;
+
  }
 
  .link-adres{
@@ -198,8 +233,10 @@ line-height: 1.18;
  }
 
  .footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color:var(--footer-background)
- }
+  }
 
  .portofolio-link{
   color: var(--akcen-tcolor);
@@ -219,6 +256,11 @@ line-height: 1.18;
  
  .portofolio-list{
   font-family: "Roboto";
+ }
+
+ .offers{
+  padding-top: 94px;
+  padding-bottom: 50px;
  }
 
  .offers-button{
@@ -255,6 +297,11 @@ font-weight: 500;
  }
  .items-item:hover{
   color: var(--akcen-tcolor);
+ }
+
+ .frame{
+  padding-top: 50px;
+  padding-bottom: 94px;
  }
  
  .frame-title{
