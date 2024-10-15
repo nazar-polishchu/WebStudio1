@@ -21,6 +21,10 @@
   
 }
 
+
+body{
+  font-family: "Roboto";
+
 .header{
   padding-top: 24px;
    padding-bottom: 32px;
@@ -83,8 +87,9 @@ letter-spacing: 0.28px;
 }
 
 .beginning{
-  padding-top: 25px;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--footer-background)
 }
 
 
@@ -94,10 +99,8 @@ letter-spacing: 0.28px;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    padding-top: 200px;
-    padding-bottom: 280px;
     color: var(--tytle-color);
-    background-color: var(--footer-background)
+    
     }
 
  .beginning-button{
@@ -112,7 +115,7 @@ letter-spacing: 0.28px;
 
   .subject{
     padding-top: 94px;
-    padding-bottom: 118px;
+    padding-bottom: 176px;
   }
 
   .subject-title{
@@ -131,7 +134,7 @@ letter-spacing: 0.28px;
   }
   
   .main{
-    padding-top: 118px;
+    padding-top: 94px;
     padding-bottom: 94px;
   }
 
@@ -304,7 +307,7 @@ font-weight: 500;
   padding-bottom: 94px;
  }
  
- .frame-title{
+ .offers-title{
   color: var(--main-color);
   font-family: "Roboto";
   font-size: 18px;
@@ -312,7 +315,7 @@ font-weight: 500;
   line-height: 2; 
  }
 
- .frame-text{
+ .offers-text{
   color: var(--et-textcolor);
   font-family: "Roboto";
  font-size: 16px;
@@ -320,14 +323,13 @@ font-weight: 500;
  line-height: 1.87;
 }
 
- .frame-img{
+ .offers-img{
   width: 370px;
 height: 294px;
 flex-shrink: 0;
  }
 
- body{
-  font-family: "Roboto";
+ 
  }
 
  .footer-Web{
