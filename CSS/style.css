@@ -11,6 +11,8 @@
     --border-color:#EEEEEE;
 }
 
+
+
 .container{
   width: 1200px;
   padding-left: 15px;
@@ -20,10 +22,6 @@
   outline: 1px solid blue;
   
 }
-
-
-body{
-  font-family: 'Roboto';
 
 .header{
   padding-top: 24px;
@@ -41,7 +39,8 @@ body{
    font-weight: 700;
    line-height: 1.38;
    margin-right: 93px;
-   color: var(--akcen-tcolor)
+   color: var(--akcen-tcolor);
+    
    }
 
 
@@ -74,7 +73,7 @@ body{
   .header-list{
     display: flex;
     gap: 50px;
-    margin-left: 344px;
+    margin-left: auto;
   }
 
 .adres{
@@ -139,7 +138,7 @@ letter-spacing: 0.28px;
 
   .subject{
     padding-top: 94px;
-    padding-bottom: 176px;
+    
   }
 
 
@@ -148,13 +147,14 @@ letter-spacing: 0.28px;
       gap: 30px;
      }
 
-  .subject-title{
-    font-family: 'Roboto';
-    color: var(--main-color);
+  .subject-titel{color: var(--main-color);
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 700;
-   line-height: 1.14;
-   letter-spacing: 0.42px;
+      letter-spacing: 0.42px;
+     
+     letter-spacing: 0.42px;
+     text-transform: uppercase;
    }
 
 
@@ -241,6 +241,11 @@ border-radius: 0px 0px 4px 4px;
  
  }
  
+ .margin{
+  margin-top: 10px;
+  margin-bottom: 30px;
+ }
+
  .team-text{
 color: var(--et-textcolor);
 text-align: center;
@@ -248,8 +253,7 @@ font-family: "Roboto";
 font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
-padding-top: 10px;
-padding-bottom: 30px;
+
 }
 
 .footer{
@@ -259,8 +263,8 @@ padding-bottom: 30px;
   }
 
 .footer-list{
-  display: -ms-flexbox;
   gap: 20px;
+  flex-wrap: wrap-reverse;
 }
 .footer-Web{
   color: var(--akcen-tcolor);
@@ -268,7 +272,7 @@ padding-bottom: 30px;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.38;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
  }
  
  .footer-Studio{
@@ -277,7 +281,7 @@ font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
-padding-bottom: 20px;
+
 }
 
 .link{
@@ -300,7 +304,7 @@ padding-bottom: 20px;
    color: var(--tytle-color);
    font-size: 14px;
    font-weight: 400;
-    margin-bottom: 9px;
+    margin-top: 20px;
  }
 
  .link-adres{
@@ -318,7 +322,7 @@ padding-bottom: 20px;
    font-weight: 400;
    line-height: 1.71;
    color: var(--adres-color);
-   margin-top: 9px;
+   
  }
 
  
@@ -348,6 +352,13 @@ padding-bottom: 20px;
   padding-bottom: 50px;
  }
 
+  .offers-list{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    
+  }
+
  .offers-button{
   font-family: "Roboto";
   color: var(--main-color);
@@ -355,6 +366,7 @@ padding-bottom: 20px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
+  ;
  }
  .offers-button:hover{
   background-color: var(--akcen-tcolor);
@@ -389,12 +401,24 @@ font-weight: 500;
   padding-bottom: 94px;
  }
  
+ .frame-list{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+ }
+
+ .frame-item{
+  padding-top: 50px;
+ }
+ 
  .offers-title{
   color: var(--main-color);
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
-  line-height: 2; 
+  line-height: 2;
+  margin-top: 20px;
  }
 
  .offers-text{
@@ -403,6 +427,7 @@ font-weight: 500;
  font-size: 16px;
  font-weight: 400;
  line-height: 1.87;
+ 
 }
 
  .offers-img{
@@ -412,7 +437,7 @@ flex-shrink: 0;
  }
 
  
- }
+ 
 
  
 
