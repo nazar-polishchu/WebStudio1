@@ -64,7 +64,7 @@
     font-size: 14px;
   font-weight: 500;
    line-height: 1.14;
-  }
+   }
 
   .index-item:hover{
     color: var(--akcen-tcolor);
@@ -169,13 +169,17 @@ letter-spacing: 0.28px;
     height: 120px;
     border-radius: 4px;
     background-color: var(--team-background);
-     background-image: url(../img/antenna.jpg);
+     background-image: url(../img/antenna.svg);
+     
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
    }
 
-   .subject-item:nth-child()
+   .subject-item:nth-child(2){
+    background-image: url(../img/clock.svg);
+    background-repeat: no-repeat;
+   }
 
    
 
@@ -397,8 +401,9 @@ display: inline-block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
-  
+  border: none;
   padding: 6px 22px;
+  border-radius: 4px 4px 4px 4px;
   
  }
  .offers-button:hover{
@@ -472,8 +477,7 @@ font-weight: 500;
 }
 
  .offers-img{
-  width: 370px;
-height: 294px;
+  width: 100%;
 flex-shrink: 0;
  }
 
