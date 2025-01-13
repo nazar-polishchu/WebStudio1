@@ -144,7 +144,7 @@ letter-spacing: 0.28px;
     padding: 10px 32px;
     border-radius: 4px;
     border: none;
-    box-shadow:rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     }
     /* subject */
 
@@ -239,9 +239,10 @@ flex-shrink: 0;
   background-color: var(--team-background);
   padding-bottom: 94px;
   padding-top: 94px;
+  
  }
 
- 
+
 
  .team-title{
   color: var(--main-color);
@@ -257,7 +258,7 @@ flex-shrink: 0;
  .team-list{
   display: flex;
   gap: 30px;
-  
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
  }
 
  .team-img{
@@ -420,6 +421,7 @@ display: inline-block;
  .offers-button:hover{
   background-color: var(--akcen-tcolor);
   color: var(--tytle-color);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
  }
 
  .portofolio-item{
