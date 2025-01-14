@@ -459,12 +459,20 @@ font-weight: 500;
     gap: 30px;
     margin-top: 50px;
  }
+ 
+ .frame-item:hover{
+  border: 1px solid #EEE;
+   background: #FFF;
+   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+ }
 
  .frame-item{
   
   outline: 1px solid #EEE;
   flex-basis: calc((100% - 60px) / 3);
  }
+
+ 
 
  .frame-box{
   padding: 20px 24px;
