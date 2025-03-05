@@ -261,10 +261,11 @@ flex-shrink: 0;
   text-align: center;
    bottom: 0;
   left: 0;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   background-color: rgba(47, 48, 58, 0.80);
   width: 100%;
+  
  
  }
 
@@ -290,9 +291,7 @@ flex-shrink: 0;
   text-align: center;
   font-family: "Roboto";
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16;
+ font-weight: 700;
   margin-bottom: 50px;
  }
 
@@ -305,6 +304,31 @@ flex-shrink: 0;
 
 .team-item{
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+  
+}
+
+
+.team-items{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.team-link{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-link:hover{
+  background-color: var(--akcen-tcolor);
+  .team-svg{
+    fill: var(--tytle-color);
+  }
 }
 
 
@@ -319,15 +343,11 @@ background-color: var(--tytle-color);
 .team-svg{
   width: 20px;
 height: 20px;
-flex-shrink: 0;
 fill: var(--svg-color);
-text-align: center;
+
 }
 
-.team-svg:hover{
-  fill: var(--tytle-color);
-  
-}
+
 
 
 .team-titles{
@@ -339,6 +359,8 @@ text-align: center;
  line-height: 1.18;
  margin-bottom: 10px;
  }
+
+
   .team-text{
 color: var(--et-textcolor);
 text-align: center;
@@ -354,6 +376,12 @@ line-height: 1.18;
   background-color: var(--tytle-color);
  }
 
+ /* ------clients----- */
+
+ .clients{
+  padding-top:94px ;
+  padding-bottom: 94px;
+ }
 .clients-list{
   display: flex;
   gap: 30px;
@@ -366,7 +394,8 @@ text-align: center;
 font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
-padding-top: 94px;
+
+margin-bottom: 50px;
 }
 
 .clients-item{
@@ -398,6 +427,15 @@ height: 60px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color:var(--footer-background)
+  }
+
+  .footer-box{
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-block{
+    margin-right: 70px;
   }
 
 .footer-list{
