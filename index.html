@@ -42,7 +42,7 @@
     <section class="beginning"> 
       <div class="container">
       <h1 class="beginning-title">Ефективні рішення для вашого бізнесу</h1> 
-      <button type="button" class="beginning-button">Замовити послугу</button> 
+      <button type="button" data-modal-open class="beginning-button">Замовити послугу</button> 
     </section> 
     <section class="subject"> 
       <div class="container">
@@ -243,6 +243,50 @@
 
 </div>
   </footer> 
+  <div class="back-drop is-hidden" data-modal>
+    <div class="modal">
+     <button type="button" data-modal-close="" class="modal-close"></button>
+     <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+     <form class="modal-form">
+       <label class="modal-label">Ім'я
+        <input required class="modal-input "type="text">
+        <svg class="modal-icon">
+          <use href="./img/symbol-defs.svg#icon-close"></use>
+        </svg>
+       </label>
+     </form>
+     <form class="modal-form">
+      <label class="modal-label">Телефон
+       <input required class="modal-input "type="tel">
+       <svg class="modal-icon">
+        <use href="./img/symbol-defs.svg#icon-close"></use>
+      </svg>
+      </label>
+    </form>
+    <form class="modal-form">
+      <label class="modal-label">Пошта
+       <input required class="modal-input" type="email">
+       <svg class="modal-icon">
+        <use href="./img/symbol-defs.svg#icon-close"></use>
+      </svg>
+      </label>
+    </form>
+    <form class="modal-form">
+      <label class="modal-label">Коментар
+       <textarea class="modal-coment" placeholder="Введіть текст"></textarea>
+      </label>
+      <div class="modal-wrap">
+        <input required type="checkbox" class="modal-check">
+      <p class="modal-text">Погоджуюся з розсилкою та приймаю </p>
+      <a href="" class="modal-link">Умови договору</a>
+      </div>
+      <div class="modal-box">
+        <button type="submit" class="modal-btn">Відправити</button>
+      </div>
+    </form>
+    </div>
+  </div>
+  <script src="./js/modal.js" type="module"></script>
 </body> 
 </html>
          
