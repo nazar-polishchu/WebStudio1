@@ -245,13 +245,17 @@
   </footer> 
   <div class="back-drop is-hidden" data-modal>
     <div class="modal">
-     <button type="button" data-modal-close="" class="modal-close"></button>
+     <button type="button" data-modal-close="" class="modal-close">
+      <svg class="modal-cross">
+        <use href="./img/symbol-defs.svg#icon-close"></use>
+      </svg>
+     </button>
      <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
      <form class="modal-form">
        <label class="modal-label">Ім'я
         <input required class="modal-input "type="text">
         <svg class="modal-icon">
-          <use href="./img/symbol-defs.svg#icon-close"></use>
+          <use href="./img/symbol-defs.svg#icon-person"></use>
         </svg>
        </label>
      </form>
@@ -259,15 +263,15 @@
       <label class="modal-label">Телефон
        <input required class="modal-input "type="tel">
        <svg class="modal-icon">
-        <use href="./img/symbol-defs.svg#icon-close"></use>
+        <use href="./img/symbol-defs.svg#icon-phone"></use>
       </svg>
       </label>
     </form>
     <form class="modal-form">
       <label class="modal-label">Пошта
        <input required class="modal-input" type="email">
-       <svg class="modal-icon">
-        <use href="./img/symbol-defs.svg#icon-close"></use>
+       <svg class="modal-email">
+        <use href="./img/symbol-defs.svg#icon-email"></use>
       </svg>
       </label>
     </form>

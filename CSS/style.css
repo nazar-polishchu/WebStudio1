@@ -20,7 +20,7 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 1px solid black; */
+  outline: 1px solid black;
 
 }
 
@@ -655,6 +655,7 @@ font-weight: 500;
   border: 1px solid #EEE;
    background: #FFF;
    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+   
  }
 
  .frame-item{
@@ -693,6 +694,8 @@ font-weight: 500;
 flex-shrink: 0;
  }
 
+ 
+
  /* модальне вікно */
 
 .back-drop{
@@ -725,12 +728,35 @@ flex-shrink: 0;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.10);;
+  border: 1px solid rgba(0, 0, 0, 0.10);
   background-color: transparent;
   position: absolute;
   top: 8px;
   right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
+
+
+.modal-close:focus,
+.modal-close:hover{
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.10);
+  .modal-cross{
+    fill: var(--akcen-tcolor);
+  }
+}
+
+.modal-cross{
+  width: 18px;
+  height: 18px;
+}
+
 
 .modal-title{
   color: var(--main-color);
@@ -750,7 +776,7 @@ flex-shrink: 0;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.12px;
-  
+  position: relative;
 }
 
 .modal-input{
@@ -762,6 +788,27 @@ flex-shrink: 0;
   margin-top: 4px;
   margin-bottom: 10px;
   padding-left: 42px;
+  
+}
+
+.modal-input:hover,
+.modal-input:focus{
+    border: none;
+    outline: 1px solid var(--akcen-tcolor);
+  }
+
+ .modal-input:hover + .modal-icon,
+ .modal-input:focus + .modal-icon{
+   fill: #2196F3;
+ }
+
+.modal-icon{
+  width: 18px;
+  height: 18px;
+  fill: var(--main-color);
+  position: absolute;
+  top: 32px;
+  left: 12px;
 }
 
 .modal-coment{
