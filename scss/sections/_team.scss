@@ -1,0 +1,99 @@
+.team {
+    background-color: var(--team-background);
+    padding-bottom: 94px;
+    padding-top: 94px;
+
+}
+
+
+
+.team-title {
+    color: var(--main-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.team-item {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+
+}
+
+
+.team-items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.team-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-link:hover {
+    background-color: var(--akcen-tcolor);
+
+    .team-svg {
+        fill: var(--tytle-color);
+    }
+}
+
+
+
+.team-img {
+    width: 270px;
+    height: 260px;
+    flex-shrink: 0;
+    background-color: var(--tytle-color);
+}
+
+.team-svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--svg-color);
+
+}
+
+
+
+
+.team-titles {
+    color: var(--main-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    margin-bottom: 10px;
+}
+
+
+.team-text {
+    color: var(--et-textcolor);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+}
+
+.margin {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--tytle-color);
+}

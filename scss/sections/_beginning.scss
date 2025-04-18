@@ -1,0 +1,38 @@
+.beginning{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+   /* background-image: url(../img/hero.png); */
+   background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/hero.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+    }
+  
+  
+   .beginning-title{
+      font-family: 'Roboto';
+      text-align: center;
+      font-size: 44px;
+      font-weight: 900;
+      line-height: 1.36;
+      color: var(--tytle-color);
+      width: 696px;
+      margin: auto;
+      margin-bottom: 30px;
+      }
+  
+   .beginning-button{
+    text-align: center;
+    color: var(--tytle-color);
+    background-color: var(--akcen-tcolor);
+      font-family: 'Roboto';
+       font-size: 16px;
+      font-weight: 700;
+      line-height: 1.85;
+      padding: 10px 32px;
+      border-radius: 4px;
+      border: none;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+      }

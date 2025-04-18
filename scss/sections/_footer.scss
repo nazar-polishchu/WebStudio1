@@ -1,0 +1,125 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--footer-background)
+}
+
+.footer-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-block {
+    margin-right: 70px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 9px;
+}
+
+.footer-Web {
+    color: var(--akcen-tcolor);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    margin-bottom: 20px;
+}
+
+.footer-Studio {
+    color: var(--tytle-color);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.item-svg:hover {
+    background-color: var(--akcen-tcolor);
+    border-radius: 50px;
+
+    .footer-svg:hover {
+        fill: var(--tytle-color);
+    }
+
+}
+
+.link {
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    color: var(--akcen-tcolor);
+}
+
+.footer-link {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    color: var(--logo-color);
+}
+
+.link-lesia {
+    font-family: "Roboto";
+    color: var(--tytle-color);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.link-adres {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--adres-color);
+    margin-bottom: 9px;
+}
+
+.link-number {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--adres-color);
+}
+
+
+.footer-h2 {
+    color: var(--tytle-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.footer-svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--tytle-color);
+}
+
+.list-svg {
+    display: flex;
+    gap: 10px;
+}
+
+.item-svg {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.10);
+}

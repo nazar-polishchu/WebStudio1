@@ -1,0 +1,115 @@
+.webstudio-link{
+    font-family: "Raleway";
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 1.38;
+   margin-right: 93px;
+   color: var(--akcen-tcolor);
+}
+
+.header{
+    padding-top: 24px;
+     padding-bottom: 25px;
+     
+  }
+  .header .container{
+    display: flex;
+    align-items: center;
+  }
+  
+    .header-span{
+      font-family: "Raleway";
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.38;
+      padding-top: 24;
+     padding-bottom: 25;
+      color: var(--logo-color);
+    }
+  
+    .header-list{
+      display: flex;
+      gap: 50px;
+      margin-left: auto;
+    }
+    
+    /* index */
+    .index-list{
+      display: flex;
+      gap: 50px;
+    }
+  
+   .index-item{
+      color: var(--logo-color);
+      font-family: 'Roboto';
+      font-size: 14px;
+    font-weight: 500;
+     line-height: 1.14;
+     transition-property: color;
+     transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,1,0,-0.01);
+      
+     }
+  
+    .index-item:hover{
+      color: var(--akcen-tcolor);
+      
+    }
+  
+    
+  
+     
+   
+  
+  /* adres */
+  .adres{
+    color: var(--et-textcolor);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  display: flex;
+  align-items: center;
+  transition-property: color;
+  transition-duration: 300ms;
+  gap: 10px;
+  }
+  
+  .adres:hover{
+    color: var(--akcen-tcolor);
+      .adres-icon{
+        fill: var(--akcen-tcolor);
+      }
+  }
+  
+    .adres-icon{
+      width: 16px;
+  height: 12px;
+  flex-shrink: 0;
+    fill: var(--et-textcolor);
+   }
+
+   .number{
+    color: var(--et-textcolor);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition-property: color;
+  transition-duration: 300ms;
+  }
+  
+  .number:hover{
+    color: var(--akcen-tcolor);
+    .adres-icon{
+      fill: var(--akcen-tcolor);
+    }
+  }
+ 
+  
+  
+  

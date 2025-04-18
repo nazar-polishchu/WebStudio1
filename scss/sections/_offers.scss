@@ -1,0 +1,54 @@
+.offers {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.offers-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+
+}
+
+.offers-button {
+    font-family: "Roboto";
+    color: var(--main-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    border: none;
+    padding: 6px 22px;
+    border-radius: 4px 4px 4px 4px;
+
+
+}
+
+.offers-button:hover {
+    background-color: var(--akcen-tcolor);
+    color: var(--tytle-color);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+.offers-title {
+    color: var(--main-color);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+
+    margin-bottom: 4px;
+}
+
+.offers-text {
+    color: var(--et-textcolor);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+
+}
+
+.offers-img {
+    width: 100%;
+    flex-shrink: 0;
+}

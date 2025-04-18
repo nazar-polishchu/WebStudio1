@@ -1,0 +1,49 @@
+.main {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.main-title {
+    font-family: "Roboto";
+    color: var(--main-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    margin-bottom: 50px;
+}
+
+.main-img {
+    display: flex;
+    gap: 30px;
+}
+
+.main-item {
+    width: 370px;
+    height: 294px;
+    flex-shrink: 0;
+}
+
+.main-position {
+    font-size: 20px;
+    color: var(--tytle-color);
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.80);
+    width: 100%;
+
+
+}
+
+.position-box {
+    position: relative;
+
+}
+
+.main-text {
+    font-family: "Roboto";
+}
