@@ -7,9 +7,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- <link rel="stylesheet" href="./CSS/style.css"> -->
-  <link rel="stylesheet" href="./style/main.min.css">
 <title>WebStudio</title> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="./style/main.min.css">
 </head> 
 <body> 
   <header class="header">
@@ -40,12 +41,12 @@
   <main> 
     <section class="beginning"> 
       <div class="container">
-      <h1 class="beginning-title">Ефективні рішення для вашого бізнесу</h1> 
-      <button type="button" data-modal-open class="beginning-button">Замовити послугу</button> 
+      <h1 class="beginning-title animate__animated animate__backInDown animate__repeat-1">Ефективні рішення для вашого бізнесу</h1> 
+      <button type="button" data-modal-open class="beginning-button animate__animated animate__pulse animate__infinite">Замовити послугу</button> 
     </section> 
     <section class="subject"> 
       <div class="container">
-      <ul class="subject-list"> 
+      <ul class="subject-list animate__animated animate__fadeInUp animate__repeat-1"> 
         <li class="subject-item"> 
           <h2 class="subject-titel">УВАГА ДО ДЕТАЛЕЙ</h2> 
           <p class="subject-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p> 
@@ -66,7 +67,7 @@
       </ul>
       </div> 
     </section> 
-     <section class="main">
+     <section class="main" data-aos="fade-up-left">
       <div class="container"> 
         <h2 class="main-title">Чим ми займаємося</h2> 
       <ul class="main-img">
@@ -87,8 +88,8 @@
      </section> 
      <section class="team">
       <div class="container" class="div">
-      <h2 class="team-title">НАША КОМАНДА</h2>
-      <ul class="team-list">
+      <h2 class="team-title" data-aos="fade-up-right">НАША КОМАНДА</h2>
+      <ul class="team-list" data-aos="fade-up-right">
         <li class="team-item">
           <img src="img/igor.jpg" alt="Igor" class="team-img">
           <div class="margin">
@@ -110,11 +111,7 @@
           </a></li>
            </ul>
            </div>
-           
-            
-              
-                
-        </li>
+          </li>
         <li class="team-item">
           <img src="img/olga.jpg" alt="Olga" class="team-img">
           <div class="margin">
@@ -184,7 +181,7 @@
       </ul> 
     </div>
      </section>
-     <section class="clients">
+     <section class="clients" data-aos="fade-up">
       <div class="container">
       <h2 class="clients-tytle">Постійні клієнти</h2>
         <ul class="clients-list">
@@ -211,7 +208,7 @@
      </section> 
     </main> 
   <footer class="footer"> 
-    <div class="container footer-box">
+    <div class="container footer-box" data-aos="fade-up">
       <div class="footer-block">
     <a href="./index.html" class="footer-Web">Web<span class="footer-Studio">Studio</span></a> 
     <address> 
@@ -290,6 +287,10 @@
     </div>
   </div>
   <script src="./js/modal.js" type="module"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body> 
 </html>
          

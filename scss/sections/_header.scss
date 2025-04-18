@@ -5,6 +5,8 @@
    line-height: 1.38;
    margin-right: 93px;
    color: var(--akcen-tcolor);
+  animation-name: move-list;
+  animation-duration: 1000ms;
 }
 
 .header{
@@ -37,7 +39,21 @@
     .index-list{
       display: flex;
       gap: 50px;
+      animation-name: move-list;
+      animation-duration: 1000ms;
     }
+
+
+        @keyframes move-list {
+          0% {
+            transform: translate(0, -200px) scale(0);
+    
+          }
+    
+          100% {
+            transform: translate(0, 0) scale(1);
+          }
+        }
   
    .index-item{
       color: var(--logo-color);
@@ -73,6 +89,8 @@
   transition-property: color;
   transition-duration: 300ms;
   gap: 10px;
+  animation-name: move-list;
+  animation-duration: 1000ms;
   }
   
   .adres:hover{
@@ -101,6 +119,8 @@
   gap: 10px;
   transition-property: color;
   transition-duration: 300ms;
+  animation-name: move-list;
+  animation-duration: 1000ms;
   }
   
   .number:hover{

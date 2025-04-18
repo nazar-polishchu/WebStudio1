@@ -8,8 +8,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>WebStudio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./style/main.min.css">
-    <title>WebStudio</title>
 </head>
 <body>
     <header class="header">
@@ -38,7 +40,7 @@
           <main>
            <section class="offers">
             <div class="container">
-            <ul class="offers-list">
+            <ul class="offers-list animate__animated animate__fadeInLeft animate__repeat-1">
               <li class="offers-item"><button type="button" class="offers-button">Усі</button></li>
               <li class="offers-item"><button type="button" class="offers-button">Веб-сайти</button></li>
               <li class="offers-item"><button type="button" class="offers-button">Додатки</button></li>
@@ -46,63 +48,63 @@
               <li class="offers-item"><button type="button" class="offers-button">Маркетинг</button></li>
             </ul>
              <ul class="frame-list">
-              <li class="frame-item">
+              <li class="frame-item animate__animated animate__fadeInUp animate__repeat-1">
                 <img src="img2/technokryk.png" alt="technokryk" class="offers-img">
                 <div class="frame-box">
                 <h2 class="offers-title">Технокряк</h2>
                 <p class="offers-text">Веб-сайт</p>
               </div>
               </li>
-              <li class="frame-item">
+              <li class="frame-item animate__animated animate__fadeInUp animate__repeat-1">
                 <img src="img2/poster.png" alt="poster" class="offers-img">
                   <div class="frame-box">
                 <h2 class="offers-title">Постер New Orlean vs Golden Star</h2>
                 <p class="offers-text">Дизайн</p>
               </div>
               </li>
-              <li class="frame-item">
+              <li class="frame-item animate__animated animate__fadeInUp animate__repeat-1">
                 <img src="img2/restourant.png" alt="restourant" class="offers-img">
                 <div class="frame-box">
                 <h2 class="offers-title">Ресторан Seafood</h2>
                 <p class="offers-text">Додаток</p>
               </div>
               </li>
-              <li class="frame-item">
+              <li class="frame-item animate__animated animate__fadeInUp animate__repeat-1">
                 <img src="img2/projectprime.png" alt="projectprime" class="offers-img">
                 <div class="frame-box">
                 <h2 class="offers-title">Проєкт Prime</h2>
                 <p class="offers-text">Маркетинг</p>
               </div>
               </li>
-              <li class="frame-item">
+              <li class="frame-item animate__animated animate__fadeInUp animate__repeat-1">
                 <img src="img2/projectbox.png" alt="projectbox" class="offers-img">
                 <div class="frame-box">
                 <h2 class="offers-title">Проєкт Boxes</h2>
                 <p class="offers-text">Додаток</p>
               </div>
               </li>
-              <li class="frame-item">
+              <li class="frame-item animate__animated animate__fadeInUp animate__repeat-1">
                 <img src="img2/inspiration.png" alt="inspiration" class="offers-img">
                 <div class="frame-box">
                 <h2 class="offers-title">Inspiration has no Borders</h2>
                 <p class="offers-text">Веб-сайт</p>
               </div>
               </li>
-              <li class="frame-item">
+              <li class="frame-item" data-aos="fade-up">
                 <img src="img2/edition.png" alt="edition" class="offers-img">
                 <div class="frame-box">
                 <h2 class="offers-title">Видання Limited Edition</h2>
                 <p class="offers-text">Дизайн</p>
               </div>
               </li>
-              <li class="frame-item">
+              <li class="frame-item" data-aos="fade-up">
                 <img src="img2/projectlab.png" alt="projectlab" class="offers-img">
                 <div class="frame-box">
                 <h2 class="offers-title">Проєкт LAB</h2>
                 <p class="offers-text">Маркетинг</p>
               </div>
               </li>
-              <li class="frame-item">
+              <li class="frame-item" data-aos="fade-up">
                 <img src="img2/growing.png" alt="growing" class="offers-img">
                 <div class="frame-box">
                 <h2 class="offers-title">Growing Business</h2>
@@ -114,7 +116,7 @@
            </section>
           </main>
           <footer class="footer"> 
-            <div class="container footer-box">
+            <div class="container footer-box" data-aos="fade-up">
               <div class="footer-block">
             <a href="./index.html" class="footer-Web">Web<span class="footer-Studio">Studio</span></a> 
             <address> 
@@ -143,6 +145,11 @@
             </ul>
           </div>
         </div>
-          </footer> 
+          </footer>
+          <script src="./js/modal.js" type="module"></script>
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script> 
         </body> 
         </html>
